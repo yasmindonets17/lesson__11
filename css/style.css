@@ -1,0 +1,152 @@
+main{
+	background-color: rgb(213, 196, 164);
+}
+.wrapper {
+	overflow: hidden;
+	min-height: 100%;
+}
+.project{
+	max-width: 1000px;
+	margin: 0 auto;
+	padding-top: 150px;
+	background-color: rgb(145, 209, 219);
+
+}
+.project__forest{
+
+	background: url(../img/trees.png);
+	background-size: 1000px 300px;
+	width: 100%;
+	height: 300px;
+
+}
+	.project__car{
+	position: absolute;
+	top: 60%;
+	left: 35%;
+	}
+
+	.car__body{
+		background: url(../img/car_body.png) center no-repeat;
+		background-size: 300px 100px;
+		width: 300px;
+		height: 100px;
+	}
+
+	.car__wheel {
+		position: absolute;
+		width: 50px;
+		height: 60px;
+	}
+	
+	.car__wheel--left{
+		background: url(../img/car_wheel_left.webp) center no-repeat;
+		background-size: 50px 50px;
+		top: 42px;
+		right: 60px;
+	}
+	.car__wheel--right{
+		background: url(../img/car_wheel_right.png) center no-repeat;
+		background-size: 50px 50px;
+		top: 40px;
+		left: 40px;
+	}
+
+	.project__road{
+		background: url(../img/Road-texture.png);
+		background-size: 200px 200px;
+		width: 100%;
+		height: 200px;
+	}
+.pd50{
+	padding: 50px;
+}
+.grey{
+	background-color: grey;
+}
+.blue {
+	background-color: blue;
+}
+.violet{
+	background-color: violet;
+}
+	.relative{
+		background-color: rgb(211, 223, 120);
+	}
+	.relative__grey {
+
+		opacity: 50%;
+		height: 100px;
+		position: relative;
+		top: 150px;
+		left: -40px;
+	}
+	.relative__blue {
+
+		height: 100px;
+
+	}
+	.relative__violet {
+
+		height: 100px;
+	}
+	.absolute {
+		background-color: rgb(0, 0, 0);
+		color: aliceblue;
+		position: relative;
+		height: 300px;
+	}
+
+	.absolute__grey {
+		height: 100px;
+		position: absolute;
+		top: 30px;
+		left: 30px;
+	}
+	.absolute__blue {
+		height: 100px;
+		position: absolute;
+		top: 60px;
+		left: 60px;
+	}
+	.absolute__violet {
+		height: 100px;
+		position: absolute;
+		top: 50%;
+		left: 40px;
+	}
+	.fixed_{
+		width: 500px;
+  	height: 300px;
+	}
+	.fixed__grey {
+		background-color: rgb(45, 41, 41);
+		color: aliceblue;
+		position: fixed;
+		width: 100%;
+		bottom: 0;
+		right: 0;
+	}
+	.sticky {
+		height: 300px;
+		overflow: visible;
+		background-color: #fff;
+		overflow: visible;
+	}
+	
+	.sticky__grey {
+
+	}
+
+	.sticky__blue {
+		height: 100px;
+		padding-bottom: 600px;
+
+	}
+
+	.sticky__violet {
+		position: -webkit-sticky;
+		position: sticky;
+    top: 50px;
+		padding: 10px;
+	}
